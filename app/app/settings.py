@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
-import os
+
 
 from pathlib import Path
 
@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-6a^q_6+vw17qc)ou=b-poo7#c^qw@3m^(6j^&puuohxlg5p@4j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.18.18','myapp.django']
+ALLOWED_HOSTS = ['192.168.18.18', 'myapp.django']
 
 
 # Application definition
@@ -124,7 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT='/static/'
+STATIC_ROOT = '/static/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
